@@ -2,6 +2,8 @@
 
 An anthropomorphic test device (ATD), — commonly known as a crash test dummy — is a high-precision test instrument used to measure human injury potential in vehicle crashes. Each ATD can potentially comprise hundreds of sensors.
 
+![atd_sensor_logbook](https://user-images.githubusercontent.com/12027644/212394705-7ac22783-fef0-45dc-a858-831403241e64.png)
+
 # Tech stack
 - Back-end: Node Js, Express
 - Front-end: React Js, Material UI
