@@ -37,6 +37,6 @@ Please find the advance topic discussion below
 ## Back-end Integration
 - Create seperate service for each type of request.
 - Seperate GET call which may run continuously after certain time interval or upon receiving Event stream data from the source
-- Seperate GET call for fetching historical data. As this application is a dashboard/ Log book, there page will show only latest n number rows, where n will be defined by Business. Page will have Dropdown holding historical date range as an option. Upon selecting the dropdown, page will make an API call with specific range. Back end service will slice the big data array as per range and return it to Client level. Advantage with this approach will be
+- Seperate GET call for fetching historical data. As this application is a dashboard/ Log book, there page will show only latest `n` number rows, where `n` will be defined by Business. Page will have Dropdown holding historical date range as an option. Upon selecting the dropdown, page will make an API call with specific range. Back end service will slice the big data array as per range and return it to Client level. Advantage with this approach will be
 -- No need to implement Pagination control with Table
 -- No Need to perform heavy loaded rendering of big data on client side.
