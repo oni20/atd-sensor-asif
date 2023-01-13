@@ -1,6 +1,6 @@
 # atd-sensor-asif
 
-This application shows list of customers and corresponding points based on their recent purchases
+An anthropomorphic test device (ATD), — commonly known as a crash test dummy — is a high-precision test instrument used to measure human injury potential in vehicle crashes. Each ATD can potentially comprise hundreds of sensors.
 
 # Tech stack
 - Back-end: Node Js, Express
@@ -23,6 +23,10 @@ Please follow below steps to run both back-end and front-end side
 - Then run `npm run start`. UI will start running on port number `3000`. Localhost URL is `http://localhost:3000/`
 - Run command `npm run test` to perform unit testing
 - To build front-end code (just in case back-end doesn't show fallback UI), run `npm run build`
+
+## How to test
+- Navigate to `client` folder from the project and run `npm run test`
+- Then type `a` in the terminal to run all test cases.
 
 # Advanced topic
 Please find the advance topic discussion below
