@@ -1,6 +1,8 @@
 # atd-sensor-asif
 
-This application shows list of customers and corresponding points based on their recent purchases
+An anthropomorphic test device (ATD), — commonly known as a crash test dummy — is a high-precision test instrument used to measure human injury potential in vehicle crashes. Each ATD can potentially comprise hundreds of sensors.
+
+![image](https://user-images.githubusercontent.com/12027644/212394895-0af2d2ff-9021-4e00-bbac-2f8a51189a02.png)
 
 # Tech stack
 - Back-end: Node Js, Express
@@ -24,6 +26,10 @@ Please follow below steps to run both back-end and front-end side
 - Run command `npm run test` to perform unit testing
 - To build front-end code (just in case back-end doesn't show fallback UI), run `npm run build`
 
+## How to test
+- Navigate to `client` folder from the project and run `npm run test`
+- Then type `a` in the terminal to run all test cases.
+
 # Advanced topic
 Please find the advance topic discussion below
 
@@ -33,6 +39,6 @@ Please find the advance topic discussion below
 ## Back-end Integration
 - Create seperate service for each type of request.
 - Seperate GET call which may run continuously after certain time interval or upon receiving Event stream data from the source
-- Seperate GET call for fetching historical data. As this application is a dashboard/ Log book, there page will show only latest n number rows, where n will be defined by Business. Page will have Dropdown holding historical date range as an option. Upon selecting the dropdown, page will make an API call with specific range. Back end service will slice the big data array as per range and return it to Client level. Advantage with this approach will be
+- Seperate GET call for fetching historical data. As this application is a dashboard/ Log book, there page will show only latest `n` number rows, where `n` will be defined by Business. Page will have Dropdown holding historical date range as an option. Upon selecting the dropdown, page will make an API call with specific range. Back end service will slice the big data array as per range and return it to Client level. Advantage with this approach will be
 -- No need to implement Pagination control with Table
 -- No Need to perform heavy loaded rendering of big data on client side.
