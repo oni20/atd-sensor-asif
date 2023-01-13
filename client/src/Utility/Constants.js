@@ -1,7 +1,7 @@
 // List all constant values here
 
-export const sensorColorLegend = {
-  red: "Broken",
+export const sensorColorLegend = {  
   green: "Ok",
+  red: "Broken",
   yellow: "Unstable",
 };
